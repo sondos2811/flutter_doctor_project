@@ -13,6 +13,7 @@ List<AvailableDoctor> demoAvailableDoctors = [
     experience: 8,
     patients: '1.08K',
     image: "assets/images/Serena_Gome.png",
+    
   ),
   AvailableDoctor(
     name: "Dr. Asma Khan",

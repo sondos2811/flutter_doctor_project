@@ -35,12 +35,13 @@ class CustomAppBar extends StatelessWidget {
           ),
           Spacer(),
           IconButton(
-            onPressed: () => Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => Scaffold(), // replace scaffold with new search page
-              ),
-            ),
+            onPressed: () {} ,
+            //Navigator.push(
+            //   context,
+            //   MaterialPageRoute(
+            //     builder: (context) => Scaffold(), // replace scaffold with new search page
+            //   ),
+            // ),
             icon: SvgPicture.asset("assets/icons/Serach.svg"),
           ),
           IconButton(

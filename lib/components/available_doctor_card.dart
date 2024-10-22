@@ -1,3 +1,4 @@
+import 'package:doctor/components/doctor_profile.dart';
 import 'package:doctor/models/AvailableDoctor.dart';
 import 'package:flutter/material.dart';
 import '../constants.dart';
@@ -17,10 +18,12 @@ class AvailableDoctorCard extends StatelessWidget {
       child: GestureDetector(
         onTap: () {
           Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => Scaffold(), // replace scaffold with doctor screen page
-              ));
+            context,
+            MaterialPageRoute(
+              builder: (context) =>
+                  DoctorProfile(info: info), 
+            ),
+          );
         },
         child: Container(
           padding: EdgeInsets.all(defaultPadding),
